@@ -1,0 +1,47 @@
+/* 공통 스타일 — 두 페이지가 같은 톤을 쓰도록 분리 */
+:root{
+  --bg:#FFFFFF; --surface:#F8FAFC; --border:#E2E8F0;
+  --text:#1E293B; --text2:#475569; --muted:#94A3B8;
+  --accent:#2563EB; --gold:#F59E0B;
+  --font:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Malgun Gothic",sans-serif;
+  --mono:"SF Mono","Fira Code",Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#0F172A; --surface:#1E293B; --border:#334155;
+    --text:#F1F5F9; --text2:#CBD5E1; --muted:#64748B;
+    --accent:#60A5FA; --gold:#FBBF24;
+  }
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);background:var(--bg);color:var(--text);
+  line-height:1.8;font-size:15px;-webkit-font-smoothing:antialiased}
+.wrap{max-width:820px;margin:0 auto;padding:0 20px 80px}
+header{background:linear-gradient(135deg,#0E0F12 0%,#1B1E23 42%,#4A4F58 60%,#2A2D33 74%,#17191D 100%);
+  color:#fff;padding:44px 20px 36px;margin-bottom:32px}
+header .inner{max-width:820px;margin:0 auto}
+header .eyebrow{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:700}
+header h1{font-size:27px;font-weight:800;margin:8px 0 6px;letter-spacing:-.02em}
+header p{color:#A8AEB8;font-size:14px}
+header .meta{margin-top:16px;padding-top:12px;font-size:12px;color:#8B919B;
+  border-top:1px solid rgba(255,255,255,.12)}
+h2{font-size:19px;font-weight:800;margin:36px 0 12px;padding-bottom:10px;border-bottom:2px solid var(--border)}
+h3{font-size:15.5px;font-weight:700;margin:22px 0 8px}
+p{margin-bottom:12px;color:var(--text2)}
+p strong,li strong,td strong{color:var(--text);font-weight:700}
+ul,ol{margin:0 0 14px 20px;color:var(--text2)}
+li{margin-bottom:6px}
+a{color:var(--accent)}
+code{font-family:var(--mono);font-size:12.5px;background:var(--surface);
+  padding:2px 6px;border-radius:5px;color:var(--text);word-break:break-all}
+table{width:100%;border-collapse:collapse;margin:14px 0 18px;font-size:14px;display:block;overflow-x:auto}
+th,td{border:1px solid var(--border);padding:9px 12px;text-align:left;vertical-align:top}
+th{background:var(--surface);font-weight:700;white-space:nowrap}
+.box{border-radius:12px;padding:16px 18px;margin:16px 0;border-left:4px solid var(--accent);background:var(--surface)}
+.box .t{font-weight:800;font-size:14px;margin-bottom:6px;color:var(--text)}
+.box p:last-child{margin-bottom:0}
+footer{border-top:1px solid var(--border);margin-top:44px;padding-top:20px;color:var(--muted);font-size:12.5px}
+footer a{color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px 22px;margin:18px 0}
+.card h3{margin-top:0}
+@media(max-width:600px){header h1{font-size:22px}.wrap{padding:0 14px 60px}}

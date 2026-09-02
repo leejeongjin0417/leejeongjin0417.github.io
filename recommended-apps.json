@@ -1,0 +1,205 @@
+{
+  "_comment": "추천앱 목록. 앱에 번들되는 기본값이며, 나중에 원격 JSON으로 교체할 때 같은 스키마를 쓴다. isActive=false 로 두면 앱 업데이트 없이 목록에서 즉시 제외된다(킬 스위치). 수익 금액은 근거를 제시할 수 없어 의도적으로 넣지 않는다.",
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-28",
+  "apps": [
+    {
+      "name": "캐시워크",
+      "packageName": "com.cashwalk.cashwalk",
+      "category": "WALK",
+      "description": "걸음수로 캐시 적립 · 잠금화면 리워드",
+      "rating": 4.3,
+      "colorSeed": 0,
+      "isActive": true
+    },
+    {
+      "name": "캐시슬라이드 스텝업",
+      "packageName": "com.nbt.moves",
+      "category": "WALK",
+      "description": "걸으면 적립되는 만보기 리워드",
+      "rating": 4.2,
+      "colorSeed": 1,
+      "isActive": true
+    },
+    {
+      "name": "머니워크",
+      "packageName": "com.tracerofficial",
+      "category": "WALK",
+      "description": "걷기 기반 건강관리 + 포인트 적립",
+      "rating": 4.5,
+      "colorSeed": 2,
+      "isActive": true
+    },
+    {
+      "name": "야핏무브",
+      "packageName": "kr.co.openit.openrider",
+      "category": "WALK",
+      "description": "걷기 · 라이딩 기록으로 리워드 적립",
+      "rating": 4.3,
+      "colorSeed": 3,
+      "isActive": true
+    },
+    {
+      "name": "손목닥터9988",
+      "packageName": "kr.go.seoul.healthcare",
+      "category": "WALK",
+      "description": "서울시 건강관리 앱 · 걸음수 포인트",
+      "rating": 4.8,
+      "colorSeed": 4,
+      "isActive": true
+    },
+    {
+      "name": "교보라플",
+      "packageName": "com.kyobo.lifeplanet.insurance",
+      "category": "WALK",
+      "description": "걸음수 · 건강 습관으로 혜택 적립",
+      "rating": 4.8,
+      "colorSeed": 5,
+      "isActive": true
+    },
+    {
+      "name": "캐시닥",
+      "packageName": "com.cashdoc.cashdoc",
+      "category": "WALK",
+      "description": "걸음수 · 퀴즈 · 병원 정보 리워드",
+      "rating": 3.8,
+      "colorSeed": 6,
+      "isActive": true
+    },
+    {
+      "name": "캐시몽",
+      "packageName": "com.reward.cashmong",
+      "category": "VIDEO",
+      "description": "광고 시청 기반 적립 리워드앱",
+      "rating": 4.6,
+      "colorSeed": 7,
+      "isActive": true
+    },
+    {
+      "name": "캐시피드",
+      "packageName": "com.nbt.cashfeed",
+      "category": "VIDEO",
+      "description": "콘텐츠 · 영상 시청으로 적립",
+      "rating": 4.5,
+      "colorSeed": 8,
+      "isActive": true
+    },
+    {
+      "name": "헤이폴",
+      "packageName": "com.weeds.tillionpanel.full",
+      "category": "SURVEY",
+      "description": "설문조사 참여로 포인트 적립",
+      "rating": 3.8,
+      "colorSeed": 9,
+      "isActive": true
+    },
+    {
+      "name": "마이비",
+      "packageName": "im.myb.android",
+      "category": "GAME",
+      "description": "퀴즈 · 만보기 기반 적립",
+      "rating": 4.8,
+      "colorSeed": 0,
+      "isActive": true
+    },
+    {
+      "name": "머니클릭",
+      "packageName": "everyclick.lusoft.android",
+      "category": "ETC",
+      "description": "앱 사용 시간에 따라 자동 적립",
+      "rating": 4.4,
+      "colorSeed": 1,
+      "isActive": true
+    },
+    {
+      "name": "캐시는내차지",
+      "packageName": "com.triggers.cashmycharge",
+      "category": "ETC",
+      "description": "휴대폰 충전 중 방치형 적립",
+      "rating": 4.6,
+      "colorSeed": 2,
+      "isActive": true
+    },
+    {
+      "name": "캐시충전",
+      "packageName": "kr.co.hotseller.cashcharge",
+      "category": "ETC",
+      "description": "충전 중 방치형 적립 · 출석 미션",
+      "rating": 4.8,
+      "colorSeed": 3,
+      "isActive": true
+    },
+    {
+      "name": "와이파잉",
+      "packageName": "com.triggers.wifiing",
+      "category": "ETC",
+      "description": "와이파이 연결 상태로 적립",
+      "rating": 4.7,
+      "colorSeed": 4,
+      "isActive": true
+    },
+    {
+      "name": "똑똑보카",
+      "packageName": "com.knockknock.voca",
+      "category": "ETC",
+      "description": "잠금화면 단어 학습 + 적립",
+      "rating": 4.3,
+      "colorSeed": 5,
+      "isActive": true
+    },
+    {
+      "name": "메모리워드",
+      "packageName": "com.specupad.memoryword",
+      "category": "ETC",
+      "description": "잠금화면 영단어 암기 + 적립",
+      "rating": 4.6,
+      "colorSeed": 6,
+      "isActive": true
+    },
+    {
+      "name": "칩스",
+      "packageName": "today.chips",
+      "category": "ETC",
+      "description": "경유 쇼핑 · 최저가 알림 추가 적립",
+      "rating": 4.8,
+      "colorSeed": 7,
+      "isActive": true
+    },
+    {
+      "name": "타임스프레드",
+      "packageName": "com.timespread.Timetable2",
+      "category": "ATTENDANCE",
+      "description": "시간표 · 캘린더 출석 미션 적립",
+      "rating": 4.5,
+      "colorSeed": 8,
+      "isActive": true
+    },
+    {
+      "name": "모니모",
+      "packageName": "net.ib.android.smcard",
+      "category": "ATTENDANCE",
+      "description": "삼성금융 통합앱 · 일일 미션 젤리",
+      "rating": 4.5,
+      "colorSeed": 9,
+      "isActive": true
+    },
+    {
+      "name": "토스",
+      "packageName": "viva.republica.toss",
+      "category": "ATTENDANCE",
+      "description": "만보기 · 행운퀴즈 · 출석 리워드",
+      "rating": 3.3,
+      "colorSeed": 0,
+      "isActive": true
+    },
+    {
+      "name": "삼쩜삼",
+      "packageName": "co.jobis.szs",
+      "category": "ETC",
+      "description": "세금 환급 조회 · 정부 혜택 확인",
+      "rating": 4.6,
+      "colorSeed": 1,
+      "isActive": true
+    }
+  ]
+}
