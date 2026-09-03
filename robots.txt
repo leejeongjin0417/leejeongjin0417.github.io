@@ -1,4 +1,11 @@
+# 검색엔진 색인 차단. 단, 광고·정책 검증에 필요한 파일은 반드시 허용한다.
+#
+# ⚠️ 두 가지를 지킬 것
+#  1) 빈 줄로 그룹이 나뉜다 — Disallow 와 Allow 사이에 빈 줄을 넣으면
+#     Allow 가 소속 그룹을 잃고 무시될 수 있다.
+#  2) Allow 를 Disallow 보다 먼저 쓴다 — 구글(RFC 9309)은 "가장 긴 경로"가 이기지만,
+#     오래된 파서는 "먼저 나온 규칙"이 이긴다. 순서를 이렇게 두면 양쪽 다 안전하다.
 User-agent: *
-Disallow: /
-
 Allow: /app-ads.txt
+Allow: /privacy.html
+Disallow: /
