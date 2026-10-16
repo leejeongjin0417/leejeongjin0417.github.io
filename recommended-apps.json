@@ -1,5 +1,5 @@
 {
-  "_comment": "추천앱 목록. Android/iOS 공용 원격 파일 — 이 저장소 site/ 를 별도 GitHub Pages 저장소(leejeongjin0417.github.io)에 복사·배포하면 두 앱이 실행 시 이 파일을 내려받아 목록을 통째로 교체한다. isActive=false 로 두면 Android에서, isActiveIOS=false 로 두면 iOS에서 앱 업데이트 없이 즉시 목록에서 제외된다(킬 스위치). appStoreId 가 없는 항목은 iOS 에 해당 앱이 없다는 뜻이며 isActiveIOS 를 반드시 false 로 둘 것 — iOS 파싱 코드가 isActiveIOS 누락 시 기본값 false 로 처리하므로 필드 자체를 빼면 안 되고 명시적으로 넣어야 한다(부록: ios-reward-plan/RewardPlanner/Sources/RewardPlanner/Data/PresetCatalog.swift). 수익 금액은 근거를 제시할 수 없어 의도적으로 넣지 않는다.",
+  "_comment": "추천앱 목록. Android/iOS 공용 원격 파일 — 이 저장소 site/ 를 별도 GitHub Pages 사용자 페이지 저장소(<사용자명>.github.io)에 복사·배포하면 두 앱이 실행 시 이 파일을 내려받아 목록을 통째로 교체한다. isActive=false 로 두면 Android에서, isActiveIOS=false 로 두면 iOS에서 앱 업데이트 없이 즉시 목록에서 제외된다(킬 스위치). appStoreId 가 없는 항목은 iOS 에 해당 앱이 없다는 뜻이며 isActiveIOS 를 반드시 false 로 둘 것 — iOS 파싱 코드가 isActiveIOS 누락 시 기본값 false 로 처리하므로 필드 자체를 빼면 안 되고 명시적으로 넣어야 한다(부록: ios-reward-plan/RewardPlanner/Sources/RewardPlanner/Data/PresetCatalog.swift). 수익 금액은 근거를 제시할 수 없어 의도적으로 넣지 않는다.",
   "schemaVersion": 1,
   "updatedAt": "2026-09-04",
   "apps": [
